@@ -37,7 +37,7 @@ function Home() {
                             <td style={{ padding: '10px', textAlign: 'center' }}>{d.email}</td>
                             <td style={{ padding: '10px', textAlign: 'center' }}><Link className='text-decoration-none btn btn-sm btn-success' to={`/update/${d.id}`}>Update</Link></td>
                             <td style={{ padding: '10px', textAlign: 'center' }}><button className='text-decoration-none btn btn-sm btn-danger' onClick={e => handleDelete(d.id)}>Delete</button></td>
-                            <td style={{ padding: '10px', textAlign: 'center' }}><Link className='text-decoration-none btn btn-sm btn-primary' to={`/update/${d.id}`}>Update</Link></td>
+                            <td style={{ padding: '10px', textAlign: 'center' }}><Link className='text-decoration-none btn btn-sm btn-primary' to={`/update/${d.id}`}>Read</Link></td>
                         </tr>
                     ))}
                 </tbody>
